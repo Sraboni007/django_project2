@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<h1>All Tasks</h1>
+<ul>
+    {% for task in tasks %}
+    <li>
+     {{ task.id }}. <a href="{% url 'task_details' task.id %}">{{ task.title }} </a>- {{ task.description }} - {{ task.completed}} | <a href="{% url 'delete_task' task.id %}">Delete</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<a href="?completed=1">Show Completed Tasks</a> |
+<a href="?completed=0">Show Incomplete Tasks</a> |
+<a href="?">Show All Tasks</a> |
+<a href="/tasks/form">Add Form</a>
+
+
+
+{% endblock %}

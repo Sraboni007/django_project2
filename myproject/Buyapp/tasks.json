@@ -1,0 +1,56 @@
+[
+    {
+        "model": "Buyapp.task",
+        "pk": 1,
+        "fields":{
+            "title": "Buy milk",
+            "description": "Get 2% milk from the store",
+            "completed": false,
+            "created_at": "2022-01-01 12:00:00"
+        }
+    },
+    
+    {
+        "model": "Buyapp.task",
+        "pk": 2,
+        "fields":{
+            "title": "walk the dog",
+            "description": "Take max for a 30-minute walk",
+            "completed": true,
+            "created_at": "2023-01-01 12:00:00"
+        }
+    },
+    
+    {
+        "model": "Buyapp.task",
+        "pk": 3,
+        "fields":{
+            "title": "Do laundry",
+            "description": "wash, dry and fold clothes",
+            "completed": false,
+            "created_at": "2022-05-01 12:00:00"
+        }
+    },
+    
+    {
+        "model": "Buyapp.task",
+        "pk": 4,
+        "fields":{
+            "title": "Buy chips",
+            "description": "Get chips from the store",
+            "completed": true,
+            "created_at": "2022-01-06 12:00:00"
+        }
+    },
+    
+    {
+        "model": "Buyapp.task",
+        "pk": 5,
+        "fields":{
+            "title": "Study for exam",
+            "description": "Review notes and practice problems",
+            "completed": true,
+            "created_at": "2022-09-08 12:00:00"
+        }
+    }
+]

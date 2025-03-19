@@ -1,0 +1,167 @@
+[
+    {
+        "model":"Buyapp.author",
+        "pk":1,
+        "fields": {
+            "first_name" : "Jhon",
+            "last_name" : "Doe",
+            "bio": "American author"
+        }
+    },
+    
+    {
+        "model":"Buyapp.author",
+        "pk":2,
+        "fields": {
+            "first_name" : "Jane",
+            "last_name" : "smth",
+            "bio": "British author"
+        }
+    },
+    {
+        "model":"Buyapp.author",
+        "pk":3,
+        "fields": {
+            "first_name" : "Bob",
+            "last_name" : "Johnson",
+            "bio": "Canadian author"
+        }
+    },
+    {
+        "model":"Buyapp.author",
+        "pk":4,
+        "fields": {
+            "first_name" : "Alica",
+            "last_name" : "Williams",
+            "bio": "Australian author"
+        }
+    },
+    {
+        "model":"Buyapp.author",
+        "pk":5,
+        "fields": {
+            "first_name" : "Mike",
+            "last_name" : "Brown",
+            "bio": "American author"
+        }
+    },
+    {
+        "model":"Buyapp.author",
+        "pk":6,
+        "fields": {
+            "first_name" : "Emily",
+            "last_name" : "Davis",
+            "bio": "British author"
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":1,
+        "fields": {
+            "title": "The Great Book",
+            "description": "The is a great book.",
+            "publication_date":"2010-10-01",
+            "author": 1
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":2,
+        "fields": {
+            "title": "The Two Book",
+            "description": "The is a great book.",
+            "publication_date":"2010-10-01",
+            "author": 3
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":3,
+        "fields": {
+            "title": "The Third Book",
+            "description": "The is a great book.",
+            "publication_date":"2010-10-01",
+            "author": 1
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":4,
+        "fields": {
+            "title": "The four Book",
+            "description": "The is the fourth book.",
+            "publication_date":"2010-10-01",
+            "author": 1
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":5,
+        "fields": {
+            "title": "The Five Book",
+            "description": "The is the fifth book.",
+            "publication_date":"2010-10-01",
+            "author": 4
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":6,
+        "fields": {
+            "title": "The Six Book",
+            "description": "The is a great book.",
+            "publication_date":"2010-10-01",
+            "author": 3 
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":7,
+        "fields": {
+            "title": "The Seven Book",
+            "description": "The is a great book.",
+            "publication_date":"2010-10-01",
+            "author": 6
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":8,
+        "fields": {
+            "title": "The Eight Book",
+            "description": "The is the eight book.",
+            "publication_date":"2010-10-01",
+            "author": 1
+    
+        }
+    },
+    {
+        "model":"Buyapp.book",
+        "pk":9,
+        "fields": {
+            "title": "The Nine Book",
+            "description": "The is the ninth book.",
+            "publication_date":"2010-10-01",
+            "author": 3
+    
+        }
+    },{
+        "model":"Buyapp.book",
+        "pk":10,
+        "fields": {
+            "title": "The Ten Book",
+            "description": "The is  the ten book.",
+            "publication_date":"2010-10-01",
+            "author": 2
+    
+        }
+    }
+
+]
